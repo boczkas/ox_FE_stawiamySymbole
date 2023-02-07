@@ -1,0 +1,8 @@
+<main>
+  <app-square
+    *ngFor="let val of board; let i = index"
+    [symbol]="'X'"
+    (click)="buttonClicked(i)"
+  ></app-square>
+</main>
+
